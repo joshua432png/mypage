@@ -1,0 +1,65 @@
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-image: url("images/coding\ pics.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    text-align: center;
+}
+
+body {
+    font-family: 'Lobster', cursive;
+    color: white;
+}
+
+/*my profile pictue*/
+.pics {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.section1 {
+    background-image:url("images/landscape.jpg");
+    background-position: center;
+    height: 30vh;
+    text-align: center;
+}
+
+.section2 {
+    background-image: url("images/sport.jpg");
+    background-position: top center;
+    color: white;
+    height: auto;
+    text-align: center;
+}
+
+figure {
+    display: inline-block;
+}
+
+.sports-pics {
+    width: 250px;
+    height: 250px;
+    object-position: top;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(26, 131, 134);
+    color: red;
+    height: 10vh;
+    text-align: center;
+    justify-content: center;
+    position: sticky;
+    bottom: 0;
+}
+
