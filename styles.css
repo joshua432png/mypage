@@ -9,6 +9,8 @@
     background-size: cover;
     height: 50vh;
     text-align: center;
+    margin: 20px;
+    border-radius: 20px;
 }
 
 body {
@@ -29,6 +31,8 @@ body {
     background-position: center;
     height: 30vh;
     text-align: center;
+    margin: 20px;
+    border-radius: 20px;
 }
 
 .section2 {
@@ -37,6 +41,7 @@ body {
     color: white;
     height: auto;
     text-align: center;
+    border-radius: 20px;
 }
 
 figure {
@@ -61,5 +66,6 @@ figure {
     justify-content: center;
     position: sticky;
     bottom: 0;
+    border-radius: 10px;
 }
 
