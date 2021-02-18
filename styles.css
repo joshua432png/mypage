@@ -66,6 +66,7 @@ figure {
     justify-content: center;
     position: sticky;
     bottom: 0;
+    margin: 10px;
     border-radius: 10px;
 }
 
