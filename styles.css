@@ -7,15 +7,15 @@
     background-image: url("images/coding\ pics.jpg");
     background-position: center;
     background-size: cover;
-    height: 50vh;
+    height: auto;
     text-align: center;
     margin: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 body {
-    font-family: 'Lobster', cursive;
-    color: white;
+    font-family: 'Zilla Slab', serif;
+    color: rgb(219, 228, 231);
 }
 
 /*my profile pictue*/
@@ -32,16 +32,17 @@ body {
     height: 30vh;
     text-align: center;
     margin: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .section2 {
     background-image: url("images/sport.jpg");
     background-position: top center;
-    color: white;
+    color: rgba(215, 235, 220, 0.973);
     height: auto;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
 }
 
 figure {
@@ -53,8 +54,9 @@ figure {
     height: 250px;
     object-position: top;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 10px;
 }
+
 
 .footer{
     display: flex;
